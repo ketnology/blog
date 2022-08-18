@@ -1,0 +1,424 @@
+Uri: http://gmag.kwst.net/
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\index.htm
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/css/plugins.css
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\css\plugins.css
+Content Type: text/css
+
+Uri: http://gmag.kwst.net/css/style.css
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\css\style.css
+Content Type: text/css
+
+Uri: http://gmag.kwst.net/css/color.css
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\css\color.css
+Content Type: text/css
+
+Uri: http://gmag.kwst.net/images/favicon.ico
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\favicon.ico
+Content Type: image/x-icon
+
+Uri: http://gmag.kwst.net/post-single.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\post-single.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/index.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\index.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/cart.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\cart.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/checkout.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\checkout.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/index2.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\index2.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/index3.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\index3.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/blog.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\blog.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/blog2.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\blog2.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/blog3.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\blog3.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/blog4.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\blog4.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/blog5.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\blog5.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/post-single2.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\post-single2.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/shop.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\shop.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/product-single.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\product-single.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/about.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\about.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/contacts.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\contacts.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/category.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\category.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/author-single.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\author-single.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/404.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\404.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/ajax/category1.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\ajax\category1.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/ajax/category2.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\ajax\category2.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/ajax/category3.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\ajax\category3.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/ajax/category4.html
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\ajax\category4.html
+Content Type: text/html
+
+Uri: https://www.youtube.com/watch?v=65YhmHsuD-M
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\watch.html
+Content Type: text/html
+
+Uri: https://vimeo.com/155428349
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\155428349.html
+Content Type: text/html
+
+Uri: https://vimeo.com/108359069
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\108359069.html
+Content Type: text/html
+
+Uri: https://www.youtube.com/watch?v=s-TySen2xLo
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\watch-1.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/images/logo.png
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\logo.png
+Content Type: image/png
+
+Uri: http://gmag.kwst.net/images/shop/1.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\shop\1.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/shop/2.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\shop\2.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/avatar/4.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\avatar\4.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/avatar/3.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\avatar\3.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/avatar/2.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\avatar\2.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/avatar/1.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\avatar\1.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/loading.gif
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\loading.gif
+Content Type: image/gif
+
+Uri: http://gmag.kwst.net/images/all/banner.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\banner.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/all/thumbs/1.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\thumbs\1.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/all/thumbs/2.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\thumbs\2.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/all/thumbs/3.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\thumbs\3.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/all/thumbs/4.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\thumbs\4.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/all/thumbs/5.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\thumbs\5.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/all/thumbs/6.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\thumbs\6.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/all/thumbs/7.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\thumbs\7.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/all/33.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\33.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/all/43.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\43.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/all/3.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\3.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/all/42.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\42.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/all/1.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\1.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/all/44.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\44.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/all/2.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\2.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/all/46.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\46.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/logo2.png
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\logo2.png
+Content Type: image/png
+
+Uri: http://gmag.kwst.net/js/jquery.min.js
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\js\jquery.min.js
+Content Type: application/javascript
+
+Uri: http://gmag.kwst.net/js/plugins.js
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\js\plugins.js
+Content Type: application/javascript
+
+Uri: http://gmag.kwst.net/js/scripts.js
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\js\scripts.js
+Content Type: application/javascript
+
+Uri: http://gmag.kwst.net/fonts/fa-brands-400.eot
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-brands-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://gmag.kwst.net/fonts/fa-brands-400.eot?
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-brands-400-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://gmag.kwst.net/fonts/fa-brands-400.woff2
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-brands-400.woff2
+Content Type: font/woff2
+
+Uri: http://gmag.kwst.net/fonts/fa-brands-400.woff
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-brands-400.woff
+Content Type: font/woff
+
+Uri: http://gmag.kwst.net/fonts/fa-brands-400.ttf
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-brands-400.ttf
+Content Type: application/octet-stream
+
+Uri: http://gmag.kwst.net/fonts/fa-brands-400.svg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-brands-400.svg
+Content Type: image/svg+xml
+
+Uri: http://gmag.kwst.net/fonts/fa-light-300.eot
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-light-300.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://gmag.kwst.net/fonts/fa-light-300.eot?
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-light-300-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://gmag.kwst.net/fonts/fa-light-300.woff2
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-light-300.woff2
+Content Type: font/woff2
+
+Uri: http://gmag.kwst.net/fonts/fa-light-300.woff
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-light-300.woff
+Content Type: font/woff
+
+Uri: http://gmag.kwst.net/fonts/fa-light-300.ttf
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-light-300.ttf
+Content Type: application/octet-stream
+
+Uri: http://gmag.kwst.net/fonts/fa-light-300.svg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-light-300.svg
+Content Type: image/svg+xml
+
+Uri: http://gmag.kwst.net/fonts/fa-regular-400.eot
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-regular-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://gmag.kwst.net/fonts/fa-regular-400.eot?
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-regular-400-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://gmag.kwst.net/fonts/fa-regular-400.woff2
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-regular-400.woff2
+Content Type: font/woff2
+
+Uri: http://gmag.kwst.net/fonts/fa-regular-400.woff
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-regular-400.woff
+Content Type: font/woff
+
+Uri: http://gmag.kwst.net/fonts/fa-regular-400.ttf
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-regular-400.ttf
+Content Type: application/octet-stream
+
+Uri: http://gmag.kwst.net/fonts/fa-regular-400.svg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-regular-400.svg
+Content Type: image/svg+xml
+
+Uri: http://gmag.kwst.net/fonts/fa-solid-900.eot
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-solid-900.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://gmag.kwst.net/fonts/fa-solid-900.eot?
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-solid-900-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://gmag.kwst.net/fonts/fa-solid-900.woff2
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-solid-900.woff2
+Content Type: font/woff2
+
+Uri: http://gmag.kwst.net/fonts/fa-solid-900.woff
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-solid-900.woff
+Content Type: font/woff
+
+Uri: http://gmag.kwst.net/fonts/fa-solid-900.ttf
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-solid-900.ttf
+Content Type: application/octet-stream
+
+Uri: http://gmag.kwst.net/fonts/fa-solid-900.svg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\fa-solid-900.svg
+Content Type: image/svg+xml
+
+Uri: http://gmag.kwst.net/fonts/lg.eot?n1z373
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\lg.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://gmag.kwst.net/fonts/lg.eot?
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\lg-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://gmag.kwst.net/fonts/lg.woff?n1z373
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\lg.woff
+Content Type: font/woff
+
+Uri: http://gmag.kwst.net/fonts/lg.ttf?n1z373
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\lg.ttf
+Content Type: application/octet-stream
+
+Uri: http://gmag.kwst.net/fonts/lg.svg?n1z373
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\fonts\lg.svg
+Content Type: image/svg+xml
+
+Uri: http://gmag.kwst.net/images/loading2.gif
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\loading2.gif
+Content Type: image/gif
+
+Uri: https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\css2.css
+Content Type: text/css
+
+Uri: http://gmag.kwst.net/images/city-bg.png
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\city-bg.png
+Content Type: image/png
+
+Uri: http://gmag.kwst.net/images/bg/7.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\bg\7.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/all/20.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\20.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/all/13.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\13.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/all/15.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\15.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/all/21.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\21.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/all/18.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\18.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/shop/5.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\shop\5.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/avatar/5.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\avatar\5.jpg
+Content Type: image/jpeg
+
+Uri: https://www.youtube.com/watch?v=K-6tPkm6cZA
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\watch-2.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/images/shop/3.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\shop\3.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/shop/4.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\shop\4.jpg
+Content Type: image/jpeg
+
+Uri: http://gmag.kwst.net/images/shop/6.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\shop\6.jpg
+Content Type: image/jpeg
+
+Uri: https://vimeo.com/225223404
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\225223404.html
+Content Type: text/html
+
+Uri: http://gmag.kwst.net/images/all/6.jpg
+File Name: C:\Downloaded Web Sites\gmag.kwst.net\images\all\6.jpg
+Content Type: image/jpeg
+
