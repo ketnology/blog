@@ -4,7 +4,7 @@
 <head>
     <!--=============== basic  ===============-->
     <meta charset="UTF-8">
-    <title>Gmag - Blog News Magazine Template</title>
+    <title>Appss - Blog News Magazine Template</title>
     <meta name="robots" content="index, follow">
     <meta name="keywords" content="">
     <meta name="description" content="">
