@@ -17,7 +17,7 @@
                      <div class="col-md-12">
                         <label>Title</label> <br>
                         <label>{{ $title }}</label>
-                         <input type="text" wire:model="post.title" name="name" placeholder="Enter Product Name" class="form-control"
+                         <input type="text" wire:model="title" name="name" placeholder="Enter Product Name" class="form-control"
                              value="">
                      </div>
                      <p class="text-danger"></p>
@@ -25,9 +25,9 @@
 
                  <div class="form-group row">
                      <div class="col-md-12">
-                         <label>Bodyhu</label><br>
+                         <label>Body</label><br>
                          <label>{{ $body }}</label>
-                         <textarea wire:model="post.body" rows="10" name="details" placeholder="Enter Product Detail" class="form-control"> </textarea>
+                         <textarea wire:model="body" rows="10" name="details" placeholder="Enter Product Detail" class="form-control"> </textarea>
                      </div>
                      <p class="text-danger"></p>
                  </div>

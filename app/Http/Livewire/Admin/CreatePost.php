@@ -12,8 +12,8 @@ class CreatePost extends Component
     // public Post $post;
 
     protected $rules = [
-        'post.title' => 'required|string|min:6',
-        'post.content' => 'required|string|max:500',
+        'title' => 'required|string|min:6',
+        'body' => 'required|string|max:500',
     ];
 
     public function save()
