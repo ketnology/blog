@@ -15,7 +15,7 @@
 
                  <div class="form-group row">
                      <div class="col-md-12">
-                         <label>Titlle</label>
+                         <label>Title</label>
                          <input type="text" name="name" placeholder="Enter Product Name" class="form-control"
                              value="">
                      </div>

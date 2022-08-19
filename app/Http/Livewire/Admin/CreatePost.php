@@ -6,11 +6,13 @@ use Livewire\Component;
 
 class CreatePost extends Component
 {
-    public $car = 'toyota';
+    // public $car = 'toyota';
+    public $title;
+    public $body;
 
     public function mount()
     {
-        $this->car = 'Macedece';
+        //
     }
 
     public function render()
