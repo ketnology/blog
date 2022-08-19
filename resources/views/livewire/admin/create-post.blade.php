@@ -10,32 +10,24 @@
      <div class="col-lg-8 ui-sortable m-auto">
          <div class="panel-body">
 
-             <form method="post" action="https://v2.squarebeautyaccessories.com/admin/products">
+             <form wire:submit.prevent="save">
 
 
                  <div class="form-group row">
                      <div class="col-md-12">
-                         <label>Title</label>
-                         <input type="text" name="name" placeholder="Enter Product Name" class="form-control"
+                        <label>Title</label> <br>
+                        <label>{{ $title }}</label>
+                         <input wire:model="title" type="text" name="name" placeholder="Enter Product Name" class="form-control"
                              value="">
                      </div>
                      <p class="text-danger"></p>
                  </div>
 
-                 {{-- <div class="form-group row">
-                     <div class="col-md-12">
-                         <label for="room">Category</label>
-                         <select name="product_category_id" class="form-control" required="">
-                             <option value="1">HH Afro Kinky Wvg</option>
-                             <option value="2">Curly Weave</option>
-                         </select>
-                         <p class="text-danger"></p>
-                     </div>
-                 </div> --}}
                  <div class="form-group row">
                      <div class="col-md-12">
-                         <label>Body</label>
-                         <textarea rows="10" name="details" placeholder="Enter Product Detail" class="form-control"> </textarea>
+                         <label>Body</label><br>
+                         <label>{{ $body }}</label>
+                         <textarea wire:model="body" rows="10" name="details" placeholder="Enter Product Detail" class="form-control"> </textarea>
                      </div>
                      <p class="text-danger"></p>
                  </div>
