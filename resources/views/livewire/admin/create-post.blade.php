@@ -15,14 +15,14 @@
 
                  <div class="form-group row">
                      <div class="col-md-12">
-                         <label>Post</label>
+                         <label>Titlle</label>
                          <input type="text" name="name" placeholder="Enter Product Name" class="form-control"
                              value="">
                      </div>
                      <p class="text-danger"></p>
                  </div>
 
-                 <div class="form-group row">
+                 {{-- <div class="form-group row">
                      <div class="col-md-12">
                          <label for="room">Category</label>
                          <select name="product_category_id" class="form-control" required="">
@@ -31,10 +31,10 @@
                          </select>
                          <p class="text-danger"></p>
                      </div>
-                 </div>
+                 </div> --}}
                  <div class="form-group row">
                      <div class="col-md-12">
-                         <label>comment</label>
+                         <label>Body</label>
                          <textarea rows="10" name="details" placeholder="Enter Product Detail" class="form-control"> </textarea>
                      </div>
                      <p class="text-danger"></p>
