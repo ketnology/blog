@@ -25,7 +25,7 @@
 
                  <div class="form-group row">
                      <div class="col-md-12">
-                         <label>Body</label><br>
+                         <label>Bodyhu</label><br>
                          <label>{{ $body }}</label>
                          <textarea wire:model="post.body" rows="10" name="details" placeholder="Enter Product Detail" class="form-control"> </textarea>
                      </div>
