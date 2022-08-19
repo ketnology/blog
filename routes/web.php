@@ -32,6 +32,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Route::get('/', function () {
     return Redirect::route('home');
 });
@@ -42,22 +43,22 @@ Route::get('/contact', Contact::class)->name('contact');
 Route::get('/single', Single::class)->name('single');
 
 // admins
-Route::get('/admin/dashboard', Dashboard::class)->name('dashboard');
-Route::get('/admin/create-post', CreatePost::class)->name('create-post');
-Route::get('/admin/comment', Comment::class)->name('comment');
-Route::get('/admin/settings', Settings::class)->name('settings');
-Route::get('/admin/pages', Pages::class)->name('pages');
-Route::get('/admin/front-page', FrontPage::class)->name('front-page');
-Route::get('/admin/about-page', AboutPage::class)->name('about-page');
-Route::get('/admin/gallery', Gallery::class)->name('gallery');
-Route::get('/admin/faq-page', FaqPage::class)->name('faq-page');
-Route::get('/admin/policy-page', PolicyPage::class)->name('policy-page');
-Route::get('/admin/contact-page', ContactPage::class)->name('contact-page');
-// Route::get('/admin/login', Login::class)->name('login');
-
-
-
-
+Route::middleware(['admin'])->group(function () {
+    Route::group(['prefix' => 'admin'], function () {
+        Route::get('dashboard', Dashboard::class)->name('dashboard');
+        Route::get('create-post', CreatePost::class)->name('create-post');
+        Route::get('comment', Comment::class)->name('comment');
+        Route::get('settings', Settings::class)->name('settings');
+        Route::get('pages', Pages::class)->name('pages');
+        Route::get('front-page', FrontPage::class)->name('front-page');
+        Route::get('about-page', AboutPage::class)->name('about-page');
+        Route::get('gallery', Gallery::class)->name('gallery');
+        Route::get('faq-page', FaqPage::class)->name('faq-page');
+        Route::get('policy-page', PolicyPage::class)->name('policy-page');
+        Route::get('contact-page', ContactPage::class)->name('contact-page');
+        // Route::get('login', Login::class)->name('login');
+    });
+});
 
 Route::middleware([
     'auth:sanctum',
