@@ -29,8 +29,6 @@ class CreatePost extends Component
     {
         $this->validate();
 
-        // php artisan make:model Images -m
-
         $this->nft->user_id = $this->user->id;
         $this->post->title = $this->title;
         $this->post->body = $this->body;

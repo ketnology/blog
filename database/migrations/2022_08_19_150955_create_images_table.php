@@ -14,7 +14,10 @@ return new class extends Migration
     public function up()
     {
         Schema::create('images', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
+            $table->integer('post_id')->unsigned();
+            $table->foreign('post_id')->references('id')->on('post')->onDelete('cascade');
+            $table->string('filename')->nullable();
             $table->timestamps();
         });
     }
