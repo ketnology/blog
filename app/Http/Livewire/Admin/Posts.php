@@ -10,4 +10,11 @@ class Posts extends Component
     {
         return view('livewire.admin.posts')->layout('layouts.master');
     }
+
+    public function index()
+    {
+        $users = DB::table('posts')->select('id','title','body')->get();
+
+        return view('')->with('users', $users);
+    }
 }
