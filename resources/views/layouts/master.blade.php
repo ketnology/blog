@@ -23,10 +23,7 @@
     <!-- ================== END BASE CSS STYLE ================== -->
 
     <!-- ================== BEGIN PAGE LEVEL CSS STYLE ================== -->
-    <link href="{{ asset('assets/plugins/jquery-jvectormap/jquery-jvectormap.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/plugins/bootstrap-calendar/css/bootstrap_calendar.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/plugins/gritter/css/jquery.gritter.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/plugins/nvd3/build/nv.d3.css') }}" rel="stylesheet">
+    @stack('styles')
     <!-- ================== END PAGE LEVEL CSS STYLE ================== -->
 
     <!-- ================== BEGIN BASE JS ================== -->
@@ -143,20 +140,15 @@
  <![endif]-->
     <script src="{{ asset('assets/plugins/slimscroll/jquery.slimscroll.min.js') }}"></script>
     <script src="{{ asset('assets/plugins/js-cookie/js.cookie.js') }}"></script>
-    <script src="{{ asset('assets/js/theme/default.min.js') }}"></script>
     <script src="{{ asset('assets/js/apps.min.js') }}"></script>
     <!-- ================== END BASE JS ================== -->
 
     <!-- ================== BEGIN PAGE LEVEL JS ================== -->
-    <script src="{{ asset('assets/plugins/d3/d3.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/nvd3/build/nv.d3.js') }}"></script>
-    <script src="{{ asset('assets/plugins/jquery-jvectormap/jquery-jvectormap.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/jquery-jvectormap/jquery-jvectormap-world-merc-en.js') }}"></script>
-    <script src="{{ asset('assets/plugins/bootstrap-calendar/js/bootstrap_calendar.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/gritter/js/jquery.gritter.js') }}"></script>
-    <script src="{{ asset('assets/js/demo/dashboard-v2.min.js') }}"></script>
+    @stack('scripts')
     <!-- ================== END PAGE LEVEL JS ================== -->
 
+    @yield('scrripts')
+    
     <script>
         $(document).ready(function() {
             App.init();
