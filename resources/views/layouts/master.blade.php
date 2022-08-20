@@ -81,7 +81,7 @@
                         </a>
                         <ul class="sub-menu">
                             <li><a href="{{route('create-post') }}">Create post</a></li>
-                            <li class="active"><a href="{{ ('posts') }}">All Posts</a></li>
+                            <li class="active"><a href="{{ ('dashboard') }}">All Posts</a></li>
                         </ul>
                     </li>
 
