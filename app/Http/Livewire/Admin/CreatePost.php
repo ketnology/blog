@@ -35,6 +35,8 @@ class CreatePost extends Component
         $this->post->save();
         redirect()->route('posts');
 
+
+
     }
 
     public function render()
