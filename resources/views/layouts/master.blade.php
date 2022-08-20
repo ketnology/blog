@@ -81,7 +81,7 @@
                         </a>
                         <ul class="sub-menu">
                             <li><a href="{{route('create-post') }}">Create post</a></li>
-                            <li class="active"><a href="{{ ('comment') }}">Comments</a></li>
+                            <li class="active"><a href="{{ ('posts') }}">All Posts</a></li>
                         </ul>
                     </li>
 
@@ -92,11 +92,11 @@
                             <span>Pages</span>
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="{{ route('front-page') }}">Front Page</a></li>
                             <li><a href="{{ route('about-page') }}">About Page</a></li>
                             <li><a href="{{ route('faq-page') }}">Faq Page</a></li>
                             <li><a href="{{ route('policy-page') }}">Policy Page</a></li>
                             <li><a href="{{ route('contact-page') }}">Contact Page</a></li>
+                            <li><a href="{{ route('gallery') }}">Gallery</a></li>
                         </ul>
                     </li>
 

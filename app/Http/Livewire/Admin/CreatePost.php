@@ -33,8 +33,8 @@ class CreatePost extends Component
         $this->post->title = $this->title;
         $this->post->body = $this->body;
         $this->post->save();
+        redirect()->route('posts');
 
-        return redirect()->route('dashboard');
     }
 
     public function render()

@@ -13,6 +13,7 @@ use App\Http\Livewire\Admin\Gallery;
 use App\Http\Livewire\Admin\Login;
 use App\Http\Livewire\Admin\Pages;
 use App\Http\Livewire\Admin\PolicyPage;
+use App\Http\Livewire\Admin\Posts;
 use App\Http\Livewire\Admin\Settings;
 use App\Http\Livewire\Blog\About;
 use App\Http\Livewire\Blog\Contact;
@@ -47,7 +48,7 @@ Route::middleware(['admin'])->group(function () {
     Route::group(['prefix' => 'admin'], function () {
         Route::get('dashboard', Dashboard::class)->name('dashboard');
         Route::get('create-post', CreatePost::class)->name('create-post');
-        Route::get('comment', Comment::class)->name('comment');
+        Route::get('posts', Posts::class)->name('posts');
         Route::get('settings', Settings::class)->name('settings');
         Route::get('pages', Pages::class)->name('pages');
         Route::get('front-page', FrontPage::class)->name('front-page');
