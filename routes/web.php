@@ -3,10 +3,8 @@
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\UserController;
 use App\Http\Livewire\Admin\AboutPage;
-use App\Http\Livewire\Admin\Comment;
 use App\Http\Livewire\Admin\ContactPage;
 use App\Http\Livewire\Admin\CreatePost;
-use App\Http\Livewire\Admin\Dashboard;
 use App\Http\Livewire\Admin\FaqPage;
 use App\Http\Livewire\Admin\FrontPage;
 use App\Http\Livewire\Admin\Gallery;
@@ -48,7 +46,6 @@ Route::middleware(['admin'])->group(function () {
     Route::group(['prefix' => 'admin'], function () {
         Route::get('dashboard', Posts::class)->name('dashboard');
         Route::get('create-post', CreatePost::class)->name('create-post');
-        Route::get('posts', Posts::class)->name('posts');
         Route::get('settings', Settings::class)->name('settings');
         Route::get('pages', Pages::class)->name('pages');
         Route::get('front-page', FrontPage::class)->name('front-page');
