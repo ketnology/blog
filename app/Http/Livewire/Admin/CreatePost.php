@@ -29,12 +29,12 @@ class CreatePost extends Component
     {
         $this->validate();
 
-        $this->nft->user_id = $this->user->id;
+        $this->post->user_id = $this->user->id;
         $this->post->title = $this->title;
         $this->post->body = $this->body;
         $this->post->save();
 
-        $this->post->save();
+        return redirect()->route('dashboard');
     }
 
     public function render()
