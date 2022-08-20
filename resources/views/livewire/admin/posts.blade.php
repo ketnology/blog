@@ -1,7 +1,6 @@
 <div>
     <ul class="timeline">
         <li>
-            <!-- begin timeline-time -->
             <div class="timeline-time">
                 <span class="date">10 January 2014</span>
                 <span class="time">20:43</span>
