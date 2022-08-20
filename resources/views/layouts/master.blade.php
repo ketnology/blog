@@ -79,10 +79,6 @@
                         <ul class="sub-menu">
                             <li class=""><a href="{{ ('dashboard') }}">All Posts</a></li>
                             <li><a href="{{route('create-post') }}">Create post</a></li>
-<<<<<<< HEAD
-                            <li class="active"><a href="{{ ('dashboard') }}">All Posts</a></li>
-=======
->>>>>>> dc616a2ac3893a0bd4e3875490d8c6e568c22013
                         </ul>
                     </li>
 
@@ -152,7 +148,7 @@
     <!-- ================== END PAGE LEVEL JS ================== -->
 
     @yield('scrripts')
-    
+
     <script>
         $(document).ready(function() {
             App.init();
