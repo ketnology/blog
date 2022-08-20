@@ -4,6 +4,7 @@ namespace App\Http\Livewire\Admin;
 
 use App\Models\Post;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Redirect;
 use Livewire\Component;
 
 class CreatePost extends Component
@@ -34,12 +35,7 @@ class CreatePost extends Component
         $this->post->body = $this->body;
         $this->post->save();
 
-<<<<<<< HEAD
         return Redirect::route('dashboard');
-=======
-
-
->>>>>>> dc616a2ac3893a0bd4e3875490d8c6e568c22013
     }
 
     public function render()
