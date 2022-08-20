@@ -46,7 +46,7 @@ Route::get('/single', Single::class)->name('single');
 // admins
 Route::middleware(['admin'])->group(function () {
     Route::group(['prefix' => 'admin'], function () {
-        Route::get('dashboard', Dashboard::class)->name('dashboard');
+        Route::get('dashboard', Posts::class)->name('dashboard');
         Route::get('create-post', CreatePost::class)->name('create-post');
         Route::get('posts', Posts::class)->name('posts');
         Route::get('settings', Settings::class)->name('settings');
