@@ -9,19 +9,20 @@
                     <div class="form-group row">
                         <div class="col-md-12">
                             <label>Title</label> <br>
-                            <input type="text" wire:model="title" name="name" placeholder="Enter Product Name" class="form-control" value="">
+                            <input type="text" wire:model="title" name="name" placeholder="Enter Product Name"
+                                class="form-control" value="">
                         </div>
                         <p class="text-danger"></p>
                     </div>
 
-                    <div class="form-group row">
+                    <div class="row fileupload-buttonbar">
                         <div class="col-md-12">
                             <label>image</label> <br>
-                            <input type="text" wire:model="title" name="name" placeholder="Upload image " class="form-control" value="">
+                            <input type="file" wire:model="avatar" name="avatar" accept="image/png, image/jpeg">
                         </div>
                         <p class="text-danger"></p>
                     </div>
-
+                    <br>
                     <div class="form-group row">
                         <div class="col-md-12">
                             <label>Body</label><br>
@@ -41,6 +42,7 @@
     </div>
 </div>
 
-<a href="javascript:;" class="btn btn-icon btn-circle btn-success btn-scroll-to-top fade" data-click="scroll-top"><i class="material-icons">keyboard_arrow_up</i></a>
+<a href="javascript:;" class="btn btn-icon btn-circle btn-success btn-scroll-to-top fade" data-click="scroll-top"><i
+        class="material-icons">keyboard_arrow_up</i></a>
 </div>
 </div>
