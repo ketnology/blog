@@ -27,7 +27,7 @@
                     <i class="fal fa-sign-in"></i>
                     @endif
                 </div>
-                <div class="nav-button-wrap">
+                <div class="nav-button-wrap" style="margin-right: 25px;">
                     <div class="nav-button">
                         <span></span><span></span><span></span>
                     </div>
