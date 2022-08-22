@@ -16,6 +16,14 @@
 
                     <div class="form-group row">
                         <div class="col-md-12">
+                            <label>image</label> <br>
+                            <input type="text" wire:model="title" name="name" placeholder="Upload image " class="form-control" value="">
+                        </div>
+                        <p class="text-danger"></p>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-md-12">
                             <label>Body</label><br>
                             <textarea wire:model="body" rows="10" name="details" placeholder="Enter Product Detail" class="form-control"> </textarea>
                         </div>
