@@ -36,7 +36,8 @@
                     <nav>
                         <ul>
                             <li>
-                                <a href="{{ route('home') }}" class="act-link">Home</i></a>
+                                {{-- <a href="{{ route('home') }}" class="act-link">Home</i></a> --}}
+                                <a href="{{ route('home') }}" class="">Home</i></a>
                             <li>
                                 <a href="{{ route('blog') }}">Blog</i></a>
                             <li><a href="{{ route('about') }}">About</a></li>
