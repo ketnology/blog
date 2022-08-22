@@ -35,7 +35,7 @@ class CreatePost extends Component
         $this->post->body = $this->body;
         $this->post->save();
 
-        return Redirect::route('dashboard');
+        // return Redirect::route('dashboard');
     }
 
     public function render()
