@@ -14,13 +14,14 @@
                         <p class="text-danger"></p>
                     </div>
 
-                    <div class="form-group row">
+                    <div class="row fileupload-buttonbar">
                         <div class="col-md-12">
                             <label>image</label> <br>
-                            <input type="text" wire:model="title" name="name" placeholder="Upload image " class="form-control" value="">
+                            <input type="file" wire:model="avatar" name="avatar" accept="image/png, image/jpeg">
                         </div>
                         <p class="text-danger"></p>
                     </div>
+                    <br>
 
                     <div class="form-group row">
                         <div class="col-md-12">
