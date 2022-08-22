@@ -4,7 +4,7 @@
 <head>
     <!--=============== basic  ===============-->
     <meta charset="UTF-8">
-    <title>Glam - Blog News Magazine Template</title>
+    <title>Glam - Blog News</title>
     <meta name="robots" content="index, follow">
     <meta name="keywords" content="">
     <meta name="description" content="">
