@@ -1,6 +1,5 @@
 <div>
     <header class="main-header">
-        <!-- top bar -->
         <div class="top-bar fl-wrap">
             <div class="container">
                 <div class="date-holder">
