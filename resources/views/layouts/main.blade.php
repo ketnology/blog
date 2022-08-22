@@ -89,8 +89,7 @@
                                 <div class="footer-widget-title">Subscribe</div>
                                 <div class="footer-widget-content">
                                     <div class="subcribe-form fl-wrap">
-                                        <p>Want to be notified when we launch a new template or an udpate. Just sign
-                                            up and we'll send you a notification by email.</p>
+                                        <p>We'll send you a notification by email.</p>
                                         <form id="subscribe" class="fl-wrap">
                                             <input class="enteremail" name="email" id="subscribe-email"
                                                 placeholder="Your Email" spellcheck="false" type="text">
