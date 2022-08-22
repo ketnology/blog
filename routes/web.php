@@ -8,7 +8,6 @@ use App\Http\Livewire\Admin\CreatePost;
 use App\Http\Livewire\Admin\FaqPage;
 use App\Http\Livewire\Admin\FrontPage;
 use App\Http\Livewire\Admin\Gallery;
-use App\Http\Livewire\Admin\Login;
 use App\Http\Livewire\Admin\Pages;
 use App\Http\Livewire\Admin\PolicyPage;
 use App\Http\Livewire\Admin\Posts;

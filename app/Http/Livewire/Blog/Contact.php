@@ -8,6 +8,6 @@ class Contact extends Component
 {
     public function render()
     {
-        return view('livewire.blog.contact');
+        return view('contact');
     }
 }

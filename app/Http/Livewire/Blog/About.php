@@ -8,6 +8,6 @@ class About extends Component
 {
     public function render()
     {
-        return view('livewire.blog.about');
+        return view('about');
     }
 }
