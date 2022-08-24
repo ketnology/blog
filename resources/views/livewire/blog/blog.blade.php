@@ -23,19 +23,7 @@
                     <div class="row">
                         <div class="col-md-8">
                             <div class="main-container fl-wrap fix-container-init">
-                                <div class="section-title">
-                                    <h2>Most Recent World News</h2>
-                                    <h4>Don't miss daily news</h4>
-                                    <div class="steader_opt steader_opt_abs">
-                                        <select name="filter" id="list" data-placeholder="Persons"
-                                            class="style-select no-search-select">
-                                            <option>Latest</option>
-                                            <option>Most Read</option>
-                                            <option>Most Viewed</option>
-                                            <option>Most Commented</option>
-                                        </select>
-                                    </div>
-                                </div>
+
                                 <div class="list-post-wrap">
                                     <!--list-post-->
                                     <div class="list-post fl-wrap">
