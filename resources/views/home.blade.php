@@ -101,7 +101,7 @@
                                                     {{ $post->created_at->format('jS F, o, g:i A') }}
                                                 </span>
                                                 <p>
-                                                    {!! $post->body !!}
+                                                    {!! Str::limit($post->body, 20) !!}
                                                 </p>
                                                 <div class="author-link">
                                                     <span>
