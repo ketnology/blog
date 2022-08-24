@@ -38,7 +38,7 @@ Route::get('/home', Home::class)->name('home');
 Route::get('/about', About::class)->name('about');
 Route::get('/blog', Blog::class)->name('blog');
 Route::get('/contact', Contact::class)->name('contact');
-Route::get('/single', Single::class)->name('single');
+Route::get('/blog/{id}', Single::class)->name('blog.single');
 
 // admins
 Route::middleware(['admin'])->group(function () {
