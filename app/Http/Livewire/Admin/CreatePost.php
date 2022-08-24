@@ -33,9 +33,6 @@ class CreatePost extends Component
 
     public function save()
     {
-        dd(
-            $this->post->body = $this->body
-        );
         $this->validate();
 
         $this->validate([
@@ -47,12 +44,12 @@ class CreatePost extends Component
         $this->post->user_id = $this->user->id;
         $this->post->title = $this->title;
         $this->post->body = $this->body;
+        $this->post->save();
 
         $image = new Image();
         $image->post_id = $this->post->id;
         $image->filename = $this->photo;
         $image->save();
-        $this->post->save();
 
         return Redirect::route('dashboard');
     }

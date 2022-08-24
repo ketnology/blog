@@ -16,7 +16,6 @@
                     <h4 class="template-title">
                         {{ $post->title }}
                     </h4>
-                    <p>{{ $post->body }}
                     </p>
                     <p class="m-t-20">
                         {{-- @foreach ($post->images as $image)

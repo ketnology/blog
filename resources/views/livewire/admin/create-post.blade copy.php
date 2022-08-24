@@ -1,5 +1,6 @@
 @section('styles')
 <script src="https://cdn.ckeditor.com/4.19.1/standard/ckeditor.js"></script>
+<script src="https://cdn.ckeditor.com/ckeditor5/35.0.1/classic/ckeditor.js"></script>
 @endsection
 
 <div>
@@ -33,11 +34,29 @@
                     </div>
                     <br>
 
-                    <div wire:ignore class="form-group row">
+                    {{-- <div class="form-group row">
                         <div class="col-md-12">
                             <label>Body</label><br>
-                            <textarea wire:model.defer="body" name="body" id="body" placeholder="Enter Product Detail"></textarea>
+                            <textarea wire:model="body" rows="10" placeholder="Enter Product Detail" class="form-control"> </textarea>
                             <x-jet-input-error for="body" />
+                        </div>
+                        <p class="text-danger"></p>
+                    </div> --}}
+
+                    {{-- <div class="form-group row" wire:ignore>
+                        <div class="col-md-12">
+                            <label>Body</label><br>
+                            <div wire:model="body" id="editor"></div>
+                            <x-jet-input-error for="body" />
+                        </div>
+                        <p class="text-danger"></p>
+                    </div> --}}
+
+                    <div class="form-group row" wire:ignore>
+                        <div class="col-md-12">
+                            <label>Body</label><br>
+                            <textarea wire:model="message" id="message" name="message" placeholder="Enter Product Detail"></textarea>
+                            <x-jet-input-error for="message" />
                         </div>
                         <p class="text-danger"></p>
                     </div>
@@ -54,11 +73,35 @@
 
 @section('scripts')
 <script>
-    const editor = CKEDITOR.replace('body');
+    // CKEDITOR.replace('editor1');
+
+    const editor = CKEDITOR.replace('message');
     editor.on('change', function(event) {
         console.log(event.editor.getData())
-        @this.set('body', event.editor.getData());
+        @this.set('message', event.editor.getData());
     })
+
+</script>
+<script>
+    // ClassicEditor
+    //     .create(document.querySelector('#editor'))
+    //     .then(editor => {
+    //         console.log(editor);
+    //     })
+    //     .catch(error => {
+    //         console.error(error);
+    //     });
+
+    ClassicEditor
+        .create(document.querySelector('#message'))
+        .then(editor => {
+            editor.model.document.on('change:data', () => {
+                @this.set('message', editor.getData());
+            })
+        })
+        .catch(error => {
+            console.error(error);
+        });
 
 </script>
 @endsection
