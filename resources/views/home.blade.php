@@ -22,7 +22,7 @@
                                                 Innovations that Bring Pleasure to All
                                                 Peoples
                                             </a>
-                                            </h2>
+                                        </h2>
                                         <h4>
                                             Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit
                                             amet, consectetur Nulla fringilla purus at leo dignissim congue.
@@ -84,66 +84,34 @@
                                 <div class="picker-wrap fl-wrap">
                                     <div class="list-post-wrap  fl-wrap">
                                         {{-- loop throuhgh this post --}}
+                                        @foreach ($posts as $post)
                                         <!--list-post-->
                                         <div class="list-post fl-wrap">
                                             <div class="list-post-media">
                                                 <a href="post-single.html">
                                                     <div class="bg-wrap">
-                                                        <div class="bg" data-bg="{{ asset('images/all/2.jpg') }}"></div>
+                                                        <div class="bg" data-bg="{{ asset('storage/' . $post->image->filename) }}"></div>
                                                     </div>
                                                 </a>
-                                                <span class="post-media_title">&copy; Image Copyrights Title</span>
                                             </div>
                                             <div class="list-post-content">
-                                                <a class="post-category-marker" href="#">Sports</a>
-                                                <h3><a href="post-single.html">Winton SuperSprint cars cancelled</a>
+                                                <h3><a href="post-single.html">{{ $post->title }}</a>
                                                 </h3>
-                                                <span class="post-date"><i class="far fa-clock"></i> 18 may
-                                                    2022</span>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod tempor incididunt .</p>
-                                                <ul class="post-opt">
-                                                    <li><i class="far fa-comments-alt"></i> 6 </li>
-                                                    <li><i class="fal fa-eye"></i> 587 </li>
-                                                </ul>
-                                                <div class="author-link"><a href="author-single.html">
+                                                <span class="post-date"><i class="far fa-clock"></i>
+                                                    {{ $post->created_at->format('jS F, o, g:i A') }}
+                                                </span>
+                                                <p>
+                                                    {!! $post->body !!}
+                                                </p>
+                                                <div class="author-link">
                                                     <span>
-                                                        By Jane
-                                                            Taylor
-                                                        </span>
-                                                    </a>
+                                                        {{ $post->title }}
+                                                    </span>
                                                 </div>
                                             </div>
                                         </div>
                                         <!--list-post end-->
-
-                                        <!--list-post-->
-                                        <div class="list-post fl-wrap">
-                                            <div class="list-post-media">
-                                                <a href="post-single.html">
-                                                    <div class="bg-wrap">
-                                                        <div class="bg" data-bg="{{ asset('images/all/5.jpg') }}"></div>
-                                                    </div>
-                                                </a>
-                                                <span class="post-media_title">&copy; Image Copyrights Title</span>
-                                            </div>
-                                            <div class="list-post-content">
-                                                <a class="post-category-marker" href="#">Sports</a>
-                                                <h3><a href="post-single.html">Winton SuperSprint cars cancelled</a>
-                                                </h3>
-                                                <span class="post-date"><i class="far fa-clock"></i> 18 may
-                                                    2022</span>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod tempor incididunt .</p>
-                                                <ul class="post-opt">
-                                                    <li><i class="far fa-comments-alt"></i> 6 </li>
-                                                    <li><i class="fal fa-eye"></i> 587 </li>
-                                                </ul>
-                                                <div class="author-link"><a href="author-single.html"><img src="images/avatar/1.jpg" alt=""> <span>By Jane
-                                                            Taylor</span></a></div>
-                                            </div>
-                                        </div>
-                                        <!--list-post end-->
+                                        @endforeach
                                     </div>
                                 </div>
                                 <div class="controls-limit fl-wrap"></div>

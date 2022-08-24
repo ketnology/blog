@@ -10,6 +10,7 @@ class Home extends Component
     public function render()
     {
         $posts = Post::orderBy('created_at', 'desc')->get();
-        return view('home');
+
+        return view('home', compact('posts'));
     }
 }
