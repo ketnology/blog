@@ -5,17 +5,18 @@ namespace App\Http\Livewire\Admin;
 use App\Models\Post;
 use Livewire\Component;
 
-class Posts extends Component
+class PostIndex extends Component
 {
-    public $post;
+    public $posts;
+    public $photo;
 
     public function mount()
     {
-        $this->post = Post::all();
+        $this->posts = Post::all();
     }
 
     public function render()
     {
-        return view('livewire.admin.posts')->layout('layouts.master');
+        return view('admin.post-index')->layout('layouts.master');
     }
 }

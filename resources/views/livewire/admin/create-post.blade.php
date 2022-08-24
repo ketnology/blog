@@ -9,15 +9,22 @@
                     <div class="form-group row">
                         <div class="col-md-12">
                             <label>Title</label> <br>
-                            <input type="text" wire:model="title" name="name" placeholder="Enter Product Name" class="form-control" value="">
+                            <input type="text" wire:model="title" placeholder="Enter Product Name" class="form-control" value="">
+                            <x-jet-input-error for="title" />
                         </div>
                         <p class="text-danger"></p>
                     </div>
 
-                    <div class="row fileupload-buttonbar">
+                    <div class="form-group row">
+                        @if ($photo)
+                        <div class="card">
+                            <img class="card-img-top" src="{{ $photo->temporaryUrl() }}" alt="" height="150">
+                        </div>
+                        @endif
                         <div class="col-md-12">
                             <label>image</label> <br>
-                            <input type="file" wire:model="avatar" name="avatar" accept="image/png, image/jpeg">
+                            <input type="file" wire:model="photo" accept="image/png, image/jpeg" class="form-control">
+                            <x-jet-input-error for="photo" />
                         </div>
                         <p class="text-danger"></p>
                     </div>
@@ -26,7 +33,8 @@
                     <div class="form-group row">
                         <div class="col-md-12">
                             <label>Body</label><br>
-                            <textarea wire:model="body" rows="10" name="details" placeholder="Enter Product Detail" class="form-control"> </textarea>
+                            <textarea wire:model="body" rows="10" placeholder="Enter Product Detail" class="form-control"> </textarea>
+                            <x-jet-input-error for="body" />
                         </div>
                         <p class="text-danger"></p>
                     </div>
@@ -40,8 +48,4 @@
         </div>
 
     </div>
-</div>
-
-<a href="javascript:;" class="btn btn-icon btn-circle btn-success btn-scroll-to-top fade" data-click="scroll-top"><i class="material-icons">keyboard_arrow_up</i></a>
-</div>
 </div>

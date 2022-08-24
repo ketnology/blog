@@ -10,7 +10,7 @@ use App\Http\Livewire\Admin\FrontPage;
 use App\Http\Livewire\Admin\Gallery;
 use App\Http\Livewire\Admin\Pages;
 use App\Http\Livewire\Admin\PolicyPage;
-use App\Http\Livewire\Admin\Posts;
+use App\Http\Livewire\Admin\PostIndex;
 use App\Http\Livewire\Admin\Settings;
 use App\Http\Livewire\Blog\About;
 use App\Http\Livewire\Blog\Contact;
@@ -43,7 +43,10 @@ Route::get('/single', Single::class)->name('single');
 // admins
 Route::middleware(['admin'])->group(function () {
     Route::group(['prefix' => 'admin'], function () {
-        Route::get('dashboard', Posts::class)->name('dashboard');
+        Route::get('/', function () {
+            return Redirect::route('dashboard');
+        })->name('admin');
+        Route::get('dashboard', PostIndex::class)->name('dashboard');
         Route::get('create-post', CreatePost::class)->name('create-post');
         Route::get('settings', Settings::class)->name('settings');
         Route::get('pages', Pages::class)->name('pages');
@@ -55,14 +58,4 @@ Route::middleware(['admin'])->group(function () {
         Route::get('contact-page', ContactPage::class)->name('contact-page');
         // Route::get('login', Login::class)->name('login');
     });
-});
-
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified'
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
 });
