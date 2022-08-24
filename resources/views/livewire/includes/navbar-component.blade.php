@@ -40,7 +40,6 @@
                                 <a href="{{ route('home') }}" class="">Home</i></a>
                             <li>
                                 <a href="{{ route('blog') }}">Blog</i></a>
-                                <a href="{{ route('blog.single') }}">Single-Blog</i></a>
                             <li><a href="{{ route('about') }}">About</a></li>
                             <li><a href="{{ route('contact') }}">Contact</a></li>
                         </ul>
