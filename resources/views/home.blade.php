@@ -122,7 +122,7 @@
                                             <div class="list-post-media">
                                                 <a href="post-single.html">
                                                     <div class="bg-wrap">
-                                                        <div class="bg" data-bg="images/all/5.jpg"></div>
+                                                        <div class="bg" data-bg="{{ asset('images/all/5.jpg') }}"></div>
                                                     </div>
                                                 </a>
                                                 <span class="post-media_title">&copy; Image Copyrights Title</span>
