@@ -15,7 +15,6 @@
                         <p class="text-danger"></p>
                     </div>
 
-<<<<<<< HEAD
                     <div class="form-group row">
                         @if ($photo)
                         <div class="card">
@@ -26,14 +25,7 @@
                             <label>image</label> <br>
                             <input type="file" wire:model="photo" accept="image/png, image/jpeg" class="form-control">
                             <x-jet-input-error for="photo" />
-=======
-                      <div class="form-group row">
-                        <div class="col-md-12">
-                            <label>image</label>
-                            <input type="file" wire:model id="img" name="img" placeholder="image" class="form-control" value="">
->>>>>>> 81d91ff299ffee61502eb935afc37e4279acea1a
-                        </div>
-                        <p class="text-danger"></p>
+                    </div>
                     </div>
                     <br>
 
