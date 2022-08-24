@@ -47,9 +47,7 @@
                                     <a href="index.html" class="footer-logo"><img src="images/logo2.png"
                                             alt=""></a>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Eaque ipsa quae ab illo
-                                        inventore veritatis et quasi architecto.
+                                        glam mechanism.
                                     </p>
                                     <div class="footer-social fl-wrap">
                                         <ul>
@@ -83,27 +81,6 @@
                             </div>
                         </div>
                         <!-- footer-widget  end-->
-                        <!-- footer-widget -->
-                        <div class="col-md-4">
-                            <div class="footer-widget">
-                                <div class="footer-widget-title">Subscribe</div>
-                                <div class="footer-widget-content">
-                                    <div class="subcribe-form fl-wrap">
-                                        <p>We'll send you a notification by email.</p>
-                                        <form id="subscribe" class="fl-wrap">
-                                            <input class="enteremail" name="email" id="subscribe-email"
-                                                placeholder="Your Email" spellcheck="false" type="text">
-                                            <button type="submit" id="subscribe-button"
-                                                class="subscribe-button color-bg">Send </button>
-                                            <label for="subscribe-email" class="subscribe-message"></label>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- footer-widget  end-->
-                    </div>
-                </div>
                 <!-- footer-widget-wrap end-->
             </div>
             <div class="footer-bottom fl-wrap">
