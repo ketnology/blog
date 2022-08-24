@@ -25,227 +25,36 @@
                             <div class="main-container fl-wrap fix-container-init">
 
                                 <div class="list-post-wrap">
-                                    <!--list-post-->
-                                    <div class="list-post fl-wrap">
-                                        <div class="list-post-media">
-                                            <a href="post-single.html">
-                                                <div class="bg-wrap">
-                                                    <div class="bg" data-bg="images/all/15.jpg"></div>
-                                                </div>
-                                            </a>
-                                            <span class="post-media_title">&copy; Image Copyrights Title</span>
+
+                                    @foreach ($posts as $post)
+
+                                        <!--list-post-->
+                                        <div class="list-post fl-wrap">
+                                            <div class="list-post-media">
+                                                <a href="post-single.html">
+                                                    <div class="bg-wrap">
+                                                        <div class="bg" data-bg="{{ asset('storage/' . $post->image->filename) }}"></div>
+                                                    </div>
+                                                </a>
+                                                <span class="post-media_title">&copy; Image Copyrights Title</span>
+                                            </div>
+                                            <div class="list-post-content">
+                                                <h3><a href="{{ route('blog.single', $post->id) }}">{{ $post->title }}"></a></h3>
+                                                <span class="post-date"><i class="far fa-clock"></i>{{ $post->created_at->format('jS F, o, g:i A') }}</span>
+                                                <p>Struggling to sell one multi-million dollar home quite on currently
+                                                    the market easily dollar home quite.</p>
+                                                <ul class="post-opt">
+                                                    <li><i class="far fa-comments-alt"></i> 6 </li>
+                                                    <li><i class="fal fa-eye"></i> 587 </li>
+                                                </ul>
+                                                <div class="author-link"><a href="author-single.html"><img
+                                                            src="images/avatar/1.jpg" alt=""> <span>By Jane
+                                                            Taylor</span></a></div>
+                                            </div>
                                         </div>
-                                        <div class="list-post-content">
-                                            <a class="post-category-marker" href="#">Sports</a>
-                                            <h3><a href="post-single.html">Goodwin must Break Clarkson hold on
-                                                    Flags</a></h3>
-                                            <span class="post-date"><i class="far fa-clock"></i> 18 may 2022</span>
-                                            <p>Struggling to sell one multi-million dollar home quite on currently
-                                                the market easily dollar home quite. </p>
-                                            <ul class="post-opt">
-                                                <li><i class="far fa-comments-alt"></i> 6 </li>
-                                                <li><i class="fal fa-eye"></i> 587 </li>
-                                            </ul>
-                                            <div class="author-link"><a href="author-single.html"><img
-                                                        src="images/avatar/1.jpg" alt=""> <span>By Jane
-                                                        Taylor</span></a></div>
-                                        </div>
-                                    </div>
-                                    <!--list-post end-->
-                                    <!--list-post-->
-                                    <div class="list-post fl-wrap">
-                                        <div class="list-post-media">
-                                            <a href="post-single.html">
-                                                <div class="bg-wrap">
-                                                    <div class="bg" data-bg="images/all/2.jpg"></div>
-                                                </div>
-                                            </a>
-                                            <span class="post-media_title">&copy; Image Copyrights Title</span>
-                                        </div>
-                                        <div class="list-post-content">
-                                            <a class="post-category-marker" href="category.html">Technology</a>
-                                            <h3><a href="post-single.html">New VR Glasses and Headset System
-                                                    Release</a></h3>
-                                            <span class="post-date"><i class="far fa-clock"></i> 15 may 2022</span>
-                                            <p>Struggling to sell one multi-million dollar home quite on currently
-                                                the market easily dollar home quite. </p>
-                                            <ul class="post-opt">
-                                                <li><i class="far fa-comments-alt"></i> 5 </li>
-                                                <li><i class="fal fa-eye"></i> 456 </li>
-                                            </ul>
-                                            <div class="author-link"><a href="author-single.html"><img
-                                                        src="images/avatar/2.jpg" alt=""> <span>By Mark
-                                                        Rose</span></a></div>
-                                        </div>
-                                    </div>
-                                    <!--list-post end-->
-                                    <!--list-post-->
-                                    <div class="list-post fl-wrap">
-                                        <div class="list-post-media">
-                                            <a href="post-single.html">
-                                                <div class="bg-wrap">
-                                                    <div class="bg" data-bg="images/all/16.jpg"></div>
-                                                </div>
-                                            </a>
-                                            <span class="post-media_title">&copy; Image Copyrights Title</span>
-                                        </div>
-                                        <div class="list-post-content">
-                                            <a class="post-category-marker" href="category.html">Science</a>
-                                            <h3><a href="post-single.html">How to start Home renovation.</a></h3>
-                                            <span class="post-date"><i class="far fa-clock"></i> 05 April
-                                                2022</span>
-                                            <p>Struggling to sell one multi-million dollar home quite on currently
-                                                the market easily dollar home quite. </p>
-                                            <ul class="post-opt">
-                                                <li><i class="far fa-comments-alt"></i> 55</li>
-                                                <li><i class="fal fa-eye"></i> 987 </li>
-                                            </ul>
-                                            <div class="author-link"><a href="author-single.html"><img
-                                                        src="images/avatar/3.jpg" alt=""> <span>By Ann
-                                                        Kowalsky</span></a></div>
-                                        </div>
-                                    </div>
-                                    <!--list-post end-->
-                                    <!--list-post-->
-                                    <div class="list-post fl-wrap">
-                                        <div class="list-post-media">
-                                            <a href="post-single.html">
-                                                <div class="bg-wrap">
-                                                    <div class="bg" data-bg="images/all/17.jpg"></div>
-                                                </div>
-                                            </a>
-                                            <span class="post-media_title">&copy; Image Copyrights Title</span>
-                                        </div>
-                                        <div class="list-post-content">
-                                            <a class="post-category-marker" href="category.html">Politics</a>
-                                            <h3><a href="post-single.html">Man boasted of crowd size at Jan. New
-                                                    book says</a></h3>
-                                            <span class="post-date"><i class="far fa-clock"></i> 11 March
-                                                2022</span>
-                                            <p>Struggling to sell one multi-million dollar home quite on currently
-                                                the market easily dollar home quite. </p>
-                                            <ul class="post-opt">
-                                                <li><i class="far fa-comments-alt"></i> 58 </li>
-                                                <li><i class="fal fa-eye"></i> 235 </li>
-                                            </ul>
-                                            <div class="author-link"><a href="author-single.html"><img
-                                                        src="images/avatar/4.jpg" alt=""> <span>By Jessie
-                                                        Bond</span></a></div>
-                                        </div>
-                                    </div>
-                                    <!--list-post end-->
-                                    <!--list-post-->
-                                    <div class="list-post fl-wrap">
-                                        <div class="list-post-media">
-                                            <a href="post-single.html">
-                                                <div class="bg-wrap">
-                                                    <div class="bg" data-bg="images/bg/4.jpg"></div>
-                                                </div>
-                                            </a>
-                                            <span class="post-media_title">&copy; Image Copyrights Title</span>
-                                        </div>
-                                        <div class="list-post-content">
-                                            <a class="post-category-marker" href="category.html">Business</a>
-                                            <h3><a href="post-single.html">Government legislates to decrimilaise
-                                                    work</a></h3>
-                                            <span class="post-date"><i class="far fa-clock"></i> 06 March
-                                                2022</span>
-                                            <p>Struggling to sell one multi-million dollar home quite on currently
-                                                the market easily dollar home quite. </p>
-                                            <ul class="post-opt">
-                                                <li><i class="far fa-comments-alt"></i> 25 </li>
-                                                <li><i class="fal fa-eye"></i> 164 </li>
-                                            </ul>
-                                            <div class="author-link"><a href="author-single.html"><img
-                                                        src="images/avatar/2.jpg" alt=""> <span>By Mark
-                                                        Rose</span></a></div>
-                                        </div>
-                                    </div>
-                                    <!--list-post end-->
-                                    <!--list-post-->
-                                    <div class="list-post fl-wrap">
-                                        <div class="list-post-media">
-                                            <a href="post-single.html">
-                                                <div class="bg-wrap">
-                                                    <div class="bg" data-bg="images/all/18.jpg"></div>
-                                                </div>
-                                            </a>
-                                            <span class="post-media_title">&copy; Image Copyrights Title</span>
-                                        </div>
-                                        <div class="list-post-content">
-                                            <a class="post-category-marker" href="category.html">Technology</a>
-                                            <h3><a href="post-single.html">This Is What a Smart Watch Can Actually
-                                                    Solve</a></h3>
-                                            <span class="post-date"><i class="far fa-clock"></i> 03 March
-                                                2022</span>
-                                            <p>Struggling to sell one multi-million dollar home quite on currently
-                                                the market easily dollar home quite. </p>
-                                            <ul class="post-opt">
-                                                <li><i class="far fa-comments-alt"></i> 4 </li>
-                                                <li><i class="fal fa-eye"></i> 980 </li>
-                                            </ul>
-                                            <div class="author-link"><a href="author-single.html"><img
-                                                        src="images/avatar/2.jpg" alt=""> <span>By Mark
-                                                        Rose</span></a></div>
-                                        </div>
-                                    </div>
-                                    <!--list-post end-->
-                                    <!--list-post-->
-                                    <div class="list-post fl-wrap">
-                                        <div class="list-post-media">
-                                            <a href="post-single.html">
-                                                <div class="bg-wrap">
-                                                    <div class="bg" data-bg="images/all/19.jpg"></div>
-                                                </div>
-                                            </a>
-                                            <span class="post-media_title">&copy; Image Copyrights Title</span>
-                                        </div>
-                                        <div class="list-post-content">
-                                            <a class="post-category-marker" href="category.html">Science</a>
-                                            <h3><a href="post-single.html">Tesla it tested hypersonic Model-C</a>
-                                            </h3>
-                                            <span class="post-date"><i class="far fa-clock"></i> 22 january
-                                                2022</span>
-                                            <p>Struggling to sell one multi-million dollar home quite on currently
-                                                the market easily dollar home quite. </p>
-                                            <ul class="post-opt">
-                                                <li><i class="far fa-comments-alt"></i> 32 </li>
-                                                <li><i class="fal fa-eye"></i> 444 </li>
-                                            </ul>
-                                            <div class="author-link"><a href="author-single.html"><img
-                                                        src="images/avatar/3.jpg" alt=""> <span>Ann
-                                                        Kowalsky</span></a></div>
-                                        </div>
-                                    </div>
-                                    <!--list-post end-->
-                                    <!--list-post-->
-                                    <div class="list-post fl-wrap">
-                                        <div class="list-post-media">
-                                            <a href="post-single.html">
-                                                <div class="bg-wrap">
-                                                    <div class="bg" data-bg="images/all/20.jpg"></div>
-                                                </div>
-                                            </a>
-                                            <span class="post-media_title">&copy; Image Copyrights Title</span>
-                                        </div>
-                                        <div class="list-post-content">
-                                            <a class="post-category-marker" href="category.html">Business</a>
-                                            <h3><a href="post-single.html"> $310m to help businesses in latest
-                                                    lockdown</a></h3>
-                                            <span class="post-date"><i class="far fa-clock"></i> 16 january
-                                                2022</span>
-                                            <p>Struggling to sell one multi-million dollar home quite on currently
-                                                the market easily dollar home quite. </p>
-                                            <ul class="post-opt">
-                                                <li><i class="far fa-comments-alt"></i> 67 </li>
-                                                <li><i class="fal fa-eye"></i> 1234 </li>
-                                            </ul>
-                                            <div class="author-link"><a href="author-single.html"><img
-                                                        src="images/avatar/1.jpg" alt=""> <span>By Jane
-                                                        Taylor</span></a></div>
-                                        </div>
-                                    </div>
-                                    <!--list-post end-->
+                                    @endforeach
+
+
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="load-more_btn"><i class="fal fa-undo"></i>Load More</div>
