@@ -24,6 +24,7 @@
 
     <!-- ================== BEGIN PAGE LEVEL CSS STYLE ================== -->
     @stack('styles')
+    @yield('styles')
     <!-- ================== END PAGE LEVEL CSS STYLE ================== -->
 
     <!-- ================== BEGIN BASE JS ================== -->
@@ -147,12 +148,11 @@
     @stack('scripts')
     <!-- ================== END PAGE LEVEL JS ================== -->
 
-    @yield('scrripts')
+    @yield('scripts')
 
     <script>
         $(document).ready(function() {
             App.init();
-            DashboardV2.init();
         });
 
     </script>

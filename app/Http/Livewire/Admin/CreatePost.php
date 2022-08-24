@@ -33,6 +33,9 @@ class CreatePost extends Component
 
     public function save()
     {
+        dd(
+            $this->post->body = $this->body
+        );
         $this->validate();
 
         $this->validate([
