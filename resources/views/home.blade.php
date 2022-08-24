@@ -88,14 +88,14 @@
                                         <!--list-post-->
                                         <div class="list-post fl-wrap">
                                             <div class="list-post-media">
-                                                <a href="post-single.html">
+                                                <a href="{{ route('blog.single', $post->id) }}">
                                                     <div class="bg-wrap">
                                                         <div class="bg" data-bg="{{ asset('storage/' . $post->image->filename) }}"></div>
                                                     </div>
                                                 </a>
                                             </div>
                                             <div class="list-post-content">
-                                                <h3><a href="post-single.html">{{ $post->title }}</a>
+                                                <h3><a href="{{ route('blog.single', $post->id) }}">{{ $post->title }}</a>
                                                 </h3>
                                                 <span class="post-date"><i class="far fa-clock"></i>
                                                     {{ $post->created_at->format('jS F, o, g:i A') }}
