@@ -24,7 +24,7 @@
             <!-- end brand -->
             <!-- begin login-content -->
             <div class="login-content">
-                <form action="index.html" method="GET" class="margin-bottom-0">
+                <form action="{{ route('home') }}" method="GET" class="margin-bottom-0">
                     <div class="form-group m-b-20">
                         <input type="text" class="form-control form-control-lg" placeholder="Email Address"
                             required="">
