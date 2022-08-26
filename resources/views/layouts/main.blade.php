@@ -47,7 +47,9 @@
                                     <a href="index.html" class="footer-logo"><img src="images/logo2.png"
                                             alt=""></a>
                                     <p>
-                                        glam mechanism.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Quos quaerat, magnam expedita voluptatum eligendi, soluta qui,
+                                        sed culpa accusantium saepe distinctio ad ex amet? Velit et exercitationem error molestiae consequatur.
                                     </p>
                                     <div class="footer-social fl-wrap">
                                         <ul>
@@ -76,6 +78,24 @@
                                             <li> <a href="#">About</a></li>
                                             <li> <a href="#">Contacts</a></li>
                                         </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- footer-widget  end-->
+                        <div class="col-md-4">
+                            <div class="footer-widget">
+                                <div class="footer-widget-title">Subscribe</div>
+                                <div class="footer-widget-content">
+                                    <div class="subcribe-form fl-wrap">
+                                        <p>We'll send you a notification by email.</p>
+                                        <form id="subscribe" class="fl-wrap">
+                                            <input class="enteremail" name="email" id="subscribe-email"
+                                                placeholder="Your Email" spellcheck="false" type="text">
+                                            <button type="submit" id="subscribe-button"
+                                                class="subscribe-button color-bg">Send </button>
+                                            <label for="subscribe-email" class="subscribe-message"></label>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
