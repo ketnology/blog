@@ -40,13 +40,19 @@
                                                 <span class="post-media_title">&copy; Image Copyrights Title</span>
                                             </div>
                                             <div class="list-post-content">
-                                                <h3><a
-                                                        href="{{ route('blog.single', $post->id) }}">{{ $post->title }}"></a>
+                                                <h3>
+                                                    <a href="{{ route('blog.single', $post->id) }}">
+                                                        {{ $post->title }}
+                                                    </a>
                                                 </h3>
-                                                <span class="post-date"><i
-                                                        class="far fa-clock"></i>{{ $post->created_at->format('jS F, o, g:i A') }}</span>
-                                                <p>Struggling to sell one multi-million dollar home quite on currently
-                                                    the market easily dollar home quite.</p>
+                                                <span class="post-date">
+                                                    <i
+                                                        class="far fa-clock"></i>
+                                                        {{ $post->created_at->format('jS F, o, g:i A') }}
+                                                    </span>
+                                                <p>
+                                                    {!! Str::limit($post->body, 150) !!}
+                                                </p>
                                             </div>
                                         </div>
                                     @endforeach
